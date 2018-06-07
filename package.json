@@ -1,0 +1,46 @@
+{
+  "name": "@exodus/prices",
+  "description": "Cryptocurrency prices",
+  "version": "0.0.1",
+  "author": "Exodus Movement, Inc.",
+  "bugs": {
+    "url": "https://github.com/exodusmovement/prices/"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.1.2",
+    "standard": "^11.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.0"
+  },
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
+  "files": [
+    "src/index.js",
+    "src/util.js"
+  ],
+  "keywords": [
+    "api",
+    "bitcoin",
+    "cryptocurrency",
+    "ethereum",
+    "price"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exodusmovement/prices.git"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "tape src/__tests__/*.js | tap-spec"
+  },
+  "dependencies": {
+    "cryptocompare": "^0.5.0",
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2"
+  }
+}
