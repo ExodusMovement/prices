@@ -1,7 +1,7 @@
 {
   "name": "@exodus/prices",
   "description": "Cryptocurrency prices",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Exodus Movement, Inc.",
   "bugs": {
     "url": "https://github.com/exodusmovement/prices/"
